@@ -1,0 +1,13 @@
+---
+# This is for ansible tower
+collections:
+  - name: ansible.posix
+  - name: ansible.netcommon
+  - name: community.kubernetes
+  - name: community.docker
+  - name: community.crypto
+  - name: https://github.com/kubernetes-sigs/kubespray
+    type: git
+    version: v2.23.1
+  - name: ./files/offline_collections/community-general-7.0.0.tar.gz
+    type: file
